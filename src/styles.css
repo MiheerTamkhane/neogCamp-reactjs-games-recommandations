@@ -1,0 +1,41 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 2rem;
+}
+body {
+  background-color: #eeeeee;
+  color: #393e46;
+}
+h1 {
+  padding-bottom: 1rem;
+  color: #222831;
+}
+h2 {
+  font-size: 1.4rem;
+}
+button {
+  border-radius: 10px;
+  margin: 1.8rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  background: #393e46;
+  color: #eeeeee;
+}
+li {
+  /* width: 40%; */
+  list-style: none;
+  margin: 1rem 0rem;
+  border: 1px solid #393e46;
+  border-radius: 1rem;
+  padding: 1rem;
+}
